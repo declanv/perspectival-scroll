@@ -1,0 +1,28 @@
+{
+  "name": "sva45",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "Eric Corriel"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3",
+    "holderjs": "holder.js#^2.9.3",
+    "modernizer": "^2.8.2",
+    "jquery-hoverintent": "jquery-hoverIntent#^1.8.1",
+    "jquery-ui": "jqueryui#^1.12.0",
+    "smartmenus": "^1.0.1",
+    "bootcards": "^1.1.2"
+  }
+}
