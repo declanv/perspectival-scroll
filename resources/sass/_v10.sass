@@ -1,0 +1,40 @@
+
+.menu-collapser
+	max-width: 320px
+	font-weight: normal
+	background-color: #CCC
+	cursor: pointer
+	.collapse-button
+		background-color: #CCC
+		height: 30px
+		width: 35px
+		float: left
+		position: relative
+		margin-left: 7px
+		.icon-bar
+			position: relative
+			margin: auto
+			width: auto
+			height: auto
+			background-color: #CCC
+			&::before
+				color: #FFF
+				content: "⬇︎"
+				font-size: 1.55em
+				position: absolute
+				left: -3px
+				top: -5px
+			&.visible::before
+				content: "⬆︎"
+					
+.slimmenu
+	max-width: 320px
+	margin-bottom: 40px
+	ul
+		padding-left: 0
+
+ul.slimmenu li 
+	a
+		color: #FFF 
+	.sub-toggle > i
+		color: #DDD

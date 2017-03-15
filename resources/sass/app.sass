@@ -1,0 +1,31 @@
+@import "mixins"
+
+body
+	color: black
+	background: none
+	background-color: white
+h1
+	clear: both
+
+a 
+	color: #337ab7
+	&:hover
+		text-decoration: none
+
+img
+	width: 100%
+
+#version-navigator
+	+clearfix
+	margin: 80px 0
+	padding-top: 10px
+	border-top: 2px dashed #666
+	h1
+		margin-top: 0
+		border: 0
+
+.gray-medium
+	color: #777
+
+@import "mixins"
+@import "imports"

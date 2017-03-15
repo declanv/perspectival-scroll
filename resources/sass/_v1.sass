@@ -1,0 +1,93 @@
+@mixin clearfix
+	&:after
+		content: ''
+		display: block
+		clear: both
+h1
+	margin-top: 80px
+	clear: both
+	border-bottom: 1px solid #CCC
+	padding-bottom: 3px
+
+.v1-social-media-header
+	margin-bottom: 0
+	padding-bottom: 0
+	&:after
+		clear: left
+.v1-social-media-links
+	list-style-type: none
+	margin-left: 0
+	padding-left: 0
+	clear: both
+	@include clearfix
+	li
+		font-size: 2em
+		float: left
+		margin-right: 20px
+		i
+			color: #666
+
+ul.v1-resources-container
+	list-style-type: none
+li.v1-resources-list
+	float : left
+	margin-right: 60px
+	ul
+		margin-left: 0
+		padding-left: 20px
+
+a.v1-go-link
+	font-size: 1.25em
+	font-weight: bold
+
+
+
+/* OVERRIDES */
+.dl-menuwrapper
+	z-index: 10000
+	li
+		display: block
+		position: relative
+		padding: 15px 20px
+		font-size: 16px
+		line-height: 20px
+		font-weight: 300
+		color: #000
+		outline: none	
+		z-index: 10000
+
+		@include clearfix()
+
+		a
+			padding: 0
+			z-index: 10000
+			padding: 0
+		.dl-submenu li
+			z-index: 10000
+			padding: 15px 0
+			&.dl-back a
+				padding: 2px 2px
+				text-transform: capitalize
+.cbp-ntaccordion h3
+	font-size: 2em
+	padding-bottom: .2em	
+	li
+.cbp-ntsubaccordion h4.cbp-nttrigger 
+	letter-spacing: normal
+	text-transform: none	
+	font-size: 1.25em		
+	text-transform: uppercase
+	font-weight: bold
+	color: #337ab7
+	&:before
+		font-family: 'icomoon'
+		content: "\36"
+		margin-right: 10px
+		font-weight: normal
+		font-size: .85em
+.cbp-ntsubaccordion.cbp-ntopen h4.cbp-nttrigger 
+	&:before
+		content: "\35"
+.dl-menuwrapper li.dl-back:after, .dl-menuwrapper li > a:not(:only-child):after
+	content: ""		
+

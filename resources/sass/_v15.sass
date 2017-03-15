@@ -1,0 +1,27 @@
+#breadcrumbs-container
+  li:first-child a
+    margin-top: 2px
+  .breadcrumb-menu-container-v15
+    .breadcrumb-menu-v15
+      position: absolute
+      top: 130px
+      clear: left
+      background-color: #CCC
+      display: none
+      z-index: 2
+
+      li 
+        font-size: .9em
+        float: none
+        clear: left
+        display: block
+        line-height: 1.5em
+        padding: 7px
+        border-bottom: 1px solid #AAA
+        &::after
+          content: ""
+
+  .breadcrumb-divider
+    padding: 16px
+    font-weight: bold
+    color: #FFF

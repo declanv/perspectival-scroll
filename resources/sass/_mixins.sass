@@ -1,0 +1,15 @@
+// Mixins
+
+=clearfix()
+  &:after
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+=sva-font($size, $weight)
+  font-family: "dejarip-1", "dejarip-2", "Helvetica Neue", Arial, clean, sans-serif
+  font-size: $size
+  line-height: normal
+  font-weight: $weight

@@ -1,0 +1,83 @@
+// Variables
+
+$sva-red: #d5264f
+$sva-btn-red: #da1e4d
+$sva-blue: #4dbee9
+$sva-grey: #4c4d4f
+$sva-dark-grey: #7a797e
+$sva-light-grey: #e8e9ed
+$sva-header-light-grey: #F2F4F8
+$sva-almost-black: #303030
+$sva-light-grey-text: #666
+$sva-light-grey-border: #bfbfbf
+
+
+
+body.container.modal-open
+    padding-right: 0 !important
+
+ul
+  margin-bottom: 20px
+  padding-left: 20px
+
+ul
+  ul
+    margin-bottom: 20px
+
+h1
+  font-size: 36px
+  line-height: 36px
+
+.modal-link-sva
+  position: relative
+  display: block
+  width: 100%
+  margin: 15px auto
+  background-color: transparent
+  border: none
+  color: black
+
+  text-align: left
+  padding: 0
+
+  +sva-font(2em, 300)
+
+  &:hover,
+  &:active
+  &:focus
+    color: $sva-blue
+    cursor: pointer
+    border: none
+    outline: none
+
+  &:visited
+    color: $sva-grey
+
+.modal.fade.container
+  padding: 0 0 0 5%
+  .modal-dialog
+    width: auto
+    //width: 70%
+    //max-width: 1080px
+    .modal-content
+      border-radius: 0
+      padding-top: 20px
+      .modal-header
+        margin: 0 auto
+        .modal-title
+          font-weight: 700
+          font-size: 30px
+          line-height: 30px
+      .modal-body
+        //width: 90%
+        //max-width: 899px
+        //margin: 4% auto 5% auto
+        //padding: 0
+        p
+          strong
+            font-size: 18px
+            line-height: 18px
+
+@media(max-width: 767px)
+  .modal.fade.container
+    padding: 0 5%

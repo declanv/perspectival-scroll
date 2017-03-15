@@ -1,0 +1,27 @@
+.v7-breadcrumbs-container
+	ul
+		padding: 0
+		margin: 0
+	#v7-preceeding-breadcrumbs
+		clear: both
+		margin: 60px 0 0
+		padding-bottom: 0
+		font-size: .8em
+
+.v7-first-breadcrumb
+	font-size: 4em !important
+	line-height: 1em
+	font-weight: 700
+	color: #000
+	margin-bottom: 10px
+	+mobile-landscape-and-below
+		margin: 10px 0
+		font-size: 3em !important
+	&.v7-with-down-arrow	
+		&:after
+			content: "↴" !important
+			font-size: .65em
+			color: #000 !important
+		+mobile-landscape-and-below
+			&:after
+				content: "" !important
