@@ -1,0 +1,377 @@
+#upper-container
+
+  .navbar.navbar-default
+    padding-top: 10px
+    padding-bottom: 15px
+    background-color: black
+    margin-bottom: 0
+    border: none
+    border-radius: 0
+
+    .container
+
+      .navbar-brand
+        width: 10%
+        margin-top: -28px
+        padding: 23px
+
+      .collapse.navbar-collapse
+
+        .nav.navbar-nav.sm-collapsible
+
+          @media (max-width: 768px)
+            height: 250px
+            overflow: hidden
+            overflow-y: scroll
+
+
+
+      .nav.navbar-nav
+        width: 90%
+
+        li,
+        .dropdown
+          //width: 15%
+          &.top-level
+            border: 1px solid black
+
+          &:hover,
+          &:active,
+          &:focus
+          //background-color: black
+          a
+            text-align: center
+            color: white
+            font-size: 1.1em
+            font-weight: 500
+            text-transform: uppercase
+            letter-spacing: 0.2em
+            width: auto
+            word-wrap: break-word
+
+            &:hover,
+            &:active,
+            &:focus
+          //background-color: black
+
+          .dropdown-menu
+            background-color: black
+            border-radius: 0
+            padding-top: 0
+            padding-bottom: 0
+
+            li
+              border-top: 1px solid $gray-dark
+
+
+              a
+                padding-top: 5px
+                padding-bottom: 5px
+
+              &:first-of-type
+                border-top: none
+                a
+                  padding-top: 10px
+              &:last-of-type
+                a
+                  padding-bottom: 10px
+
+              a
+                text-align: left
+                font-size: 0.75em
+                white-space: pre-wrap
+                word-wrap: break-word
+
+                // * The following controls the min-width for all subsequent dropdown-menus
+                min-width: 200px
+
+                &:hover,
+                &:active,
+                &:focus
+                  background-color: $gray
+
+              &.dropdown
+                a
+                  &:hover,
+                  &:active,
+                  &:focus,
+                  &.highlighted
+                    background-color: $gray
+
+                .dropdown-menu
+                  background-color: $gray-dark
+                  li
+                    border-top: 1px solid $gray-light
+                    &:first-of-type
+                      border-top: none
+                    &.dropdown
+                      a
+                        &:hover,
+                        &:active,
+                        &:focus,
+                        &.highlighted
+                          background-color: $gray-light
+
+                      .dropdown-menu
+                        background-color: $gray-light
+                        li
+                          border-top: 1px solid $gray-lighter
+                          a
+                            &:hover,
+                            &:active,
+                            &:focus,
+                            &.highlighted
+                              background-color: $gray-lighter
+                              color: black
+                          &:first-of-type
+                            border-top: none
+                          &.dropdown
+                            a
+                              &:hover,
+                              &:active,
+                              &:focus,
+                              &.highlighted
+                                background-color: $gray-lighter
+                                color: black
+
+                            .dropdown-menu
+                              background-color: $gray-lighter
+                              // turning off visiblity for bottom-level nav menus
+                              // This works for desktop views, but not for mobile
+                              visibility: hidden
+                              display: none !important
+
+                              .dropdown,
+                              li
+                                a
+                                  color: $gray-darker
+                                  &:hover,
+                                  &:active,
+                                  &:focus,
+                                  &.highlighted
+                                    background-color: white
+                                    color: black
+
+
+          &.open
+
+            .dropdown
+            &.top-level
+              background-color: black
+              border: 1px solid white
+              a
+                &.highlighted
+                  background-color: black
+
+                  &:hover,
+                  &:focus
+                    background-color: $gray-dark
+
+    // ***  SUBNAV STYLES  ***
+
+    &.subnav-navbar
+      background-color: $gray-light-btwn
+
+      .container
+        .subnav-inner
+          padding-left: 0
+
+          .nav.navbar-nav
+
+            a,
+            a:hover,
+            a:focus,
+            a:active
+              background-color: $gray-light-btwn
+              font-weight: 700
+            //text-transform: capitalize
+
+            li,
+            .dropdown
+
+              border: none
+              border: 1px solid $gray-light-btwn
+
+              &:first-of-type
+              //margin-left: -10px
+
+              a
+                color: black
+
+              &:hover,
+              &:active,
+              &:focus,
+              &.open
+                border: 1px solid white
+
+
+              .dropdown-menu
+                background-color: $gray-light-btwn
+
+                li
+                  background-color: $gray-lighter
+                  border: none
+
+                  &:first-of-type
+                    border-top: none
+                  a
+                    &:hover,
+                    &:active,
+                    &:focus
+                      background-color: $gray-lighter
+                      border-top: 1px solid white
+
+            // media queries applied to subnav-inner
+            @media (max-width: 768px)
+              width: 100%
+              margin-right: 0
+              margin-left: 0
+
+              li
+                display: inline-block
+                a
+                  font-size: $nav-top-level-link-mobile
+
+
+
+
+    &.navbar-breadcrumbs
+      background-color: $gray-medium
+
+
+      .container
+        .nav.navbar-nav
+          li
+
+            a
+            //padding-top: 2px
+            //padding-bottom: 2px
+
+            &.dropdown
+
+              &.open
+                background-color: $gray-medium
+                a
+                  background-color: $gray-medium
+                  border: 1px solid white
+
+              a
+                border: 1px solid $gray-medium
+
+                &:hover,
+                &:active,
+                &:focus
+                  background-color: $gray-medium
+                  border: 1px solid white
+
+              .dropdown-menu
+                background-color: $gray-medium
+
+                li
+                  border-bottom: none
+                  border: none
+                  border-top: 1px solid white
+
+                  &:first-of-type
+                    border-top: none
+
+                  &:hover,
+                  &:active,
+                  &:focus
+                    background-color: $gray-light
+                    a
+                      background-color: $gray-light
+                  a
+                    border: none
+
+      // page title for pages with breadcrumbs
+      .page-title
+        display: inline-block
+        color: white
+        text-transform: uppercase
+        font-size: $page-title
+        font-weight: 500
+        letter-spacing: 2px
+        margin-top: 0
+        margin-bottom: 0
+        padding-left: 10px
+
+
+      @media (max-width: 768px)
+        width: 100%
+
+        .container
+          .nav.navbar-nav
+            li
+              display: inline-block
+              a
+                font-size: $nav-top-level-link-mobile
+                padding: 5px 8px
+
+        .page-title
+          font-size: $page-title-mobile
+
+//margin-left: -10px
+
+
+
+//#breadcrumbs-container
+  //  padding-top: 8px
+  //  padding-bottom: 10px
+  //  background-color: $gray-medium
+  //
+  //  .container
+  //
+  //    .nav.nav-tabs
+  //      border-bottom: none
+  //      li
+  //
+  //        &:hover,
+  //        &:active,
+  //        &:focus
+  //          color: $gray-medium
+  //          background-color: $gray-medium
+  //          a
+  //            background-color: $gray-medium
+  //            border: none
+  //            color: $gray-lighter
+  //
+  //        &:first-of-type
+  //          a
+  //            padding-left: 0
+  //
+  //        a
+  //          color: $gray-light-btwn
+  //          font-size: 1.25em
+  //          text-transform: uppercase
+  //          border: none
+  //
+  //    .page-title
+  //      text-transform: uppercase
+  //      font-size: 2.5em
+  //      letter-spacing: 2px
+  //      color: white
+  //      margin-top: 0
+  //
+  //  .crumbs
+  //
+  //    &#v7-preceeding-breadcrumbs
+  //      margin-top: 0
+  //      li
+  //        font-size: 1.75em
+  //
+  //        a
+  //          color: $gray-lighter
+  //
+  //    li
+  //      font-size: 1.75em
+  //
+  //      &.v7-first-breadcrumb
+  //        font-size: 3.25em !important
+  //        color: white
+  //        a
+  //          color: white
+
+
+#body-content
+  padding-top: 25px

@@ -9831,6 +9831,249 @@ ul.slimmenu li .sub-toggle > i {
           .faculty-letter-container .faculty-card-container .faculty-card .faculty-dept-list ul li:last-child:after {
             content: ""; }
 
+#upper-container .navbar.navbar-default {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  background-color: black;
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0; }
+  #upper-container .navbar.navbar-default .container .navbar-brand {
+    width: 10%;
+    margin-top: -28px;
+    padding: 23px; }
+  @media (max-width: 768px) {
+    #upper-container .navbar.navbar-default .container .collapse.navbar-collapse .nav.navbar-nav.sm-collapsible {
+      height: 250px;
+      overflow: hidden;
+      overflow-y: scroll; } }
+  #upper-container .navbar.navbar-default .container .nav.navbar-nav {
+    width: 90%; }
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav li.top-level,
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown.top-level {
+      border: 1px solid black; }
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav li a,
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown a {
+      text-align: center;
+      color: white;
+      font-size: 1.1em;
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      width: auto;
+      word-wrap: break-word; }
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu,
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu {
+      background-color: black;
+      border-radius: 0;
+      padding-top: 0;
+      padding-bottom: 0; }
+      #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li,
+      #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li {
+        border-top: 1px solid #333333; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li a,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li a {
+          padding-top: 5px;
+          padding-bottom: 5px; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li:first-of-type,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li:first-of-type {
+          border-top: none; }
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li:first-of-type a,
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li:first-of-type a {
+            padding-top: 10px; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li:last-of-type a,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li:last-of-type a {
+          padding-bottom: 10px; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li a,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li a {
+          text-align: left;
+          font-size: 0.75em;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          min-width: 200px; }
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li a:focus,
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li a:hover,
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li a:active,
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li a:focus {
+            background-color: #555555; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown a:focus, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown a.highlighted,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown a:hover,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown a:active,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown a:focus,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown a.highlighted {
+          background-color: #555555; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu {
+          background-color: #333333; }
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li,
+          #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li {
+            border-top: 1px solid #777777; }
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li:first-of-type,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li:first-of-type {
+              border-top: none; }
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:focus, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown a.highlighted,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:hover,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:active,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:focus,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a.highlighted {
+              background-color: #777777; }
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu,
+            #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu {
+              background-color: #777777; }
+              #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li,
+              #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li {
+                border-top: 1px solid #eeeeee; }
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:focus, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a.highlighted,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:hover,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:active,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:focus,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a.highlighted {
+                  background-color: #eeeeee;
+                  color: black; }
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li:first-of-type,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li:first-of-type {
+                  border-top: none; }
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:focus, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a.highlighted,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:hover,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:active,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a:focus,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown a.highlighted {
+                  background-color: #eeeeee;
+                  color: black; }
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu,
+                #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu {
+                  background-color: #eeeeee;
+                  visibility: hidden;
+                  display: none !important; }
+                  #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a,
+                  #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a,
+                  #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a,
+                  #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a {
+                    color: #222222; }
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:active, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:focus, #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a.highlighted,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:hover,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:active,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:focus,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav li .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a.highlighted,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:hover,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:active,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a:focus,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu .dropdown a.highlighted,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:hover,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:active,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a:focus,
+                    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li.dropdown .dropdown-menu li a.highlighted {
+                      background-color: white;
+                      color: black; }
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav li.open.top-level,
+    #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown.open.top-level {
+      background-color: black;
+      border: 1px solid white; }
+      #upper-container .navbar.navbar-default .container .nav.navbar-nav li.open.top-level a.highlighted,
+      #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown.open.top-level a.highlighted {
+        background-color: black; }
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav li.open.top-level a.highlighted:hover, #upper-container .navbar.navbar-default .container .nav.navbar-nav li.open.top-level a.highlighted:focus,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown.open.top-level a.highlighted:hover,
+        #upper-container .navbar.navbar-default .container .nav.navbar-nav .dropdown.open.top-level a.highlighted:focus {
+          background-color: #333333; }
+  #upper-container .navbar.navbar-default.subnav-navbar {
+    background-color: #a6a6a6; }
+    #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner {
+      padding-left: 0; }
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav a,
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav a:hover,
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav a:focus,
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav a:active {
+        background-color: #a6a6a6;
+        font-weight: 700; }
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li,
+      #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown {
+        border: none;
+        border: 1px solid #a6a6a6; }
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li a,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown a {
+          color: black; }
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li:hover, #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li:active, #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li:focus, #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li.open,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown:hover,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown:active,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown:focus,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown.open {
+          border: 1px solid white; }
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu,
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu {
+          background-color: #a6a6a6; }
+          #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu li,
+          #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu li {
+            background-color: #eeeeee;
+            border: none; }
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu li:first-of-type,
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu li:first-of-type {
+              border-top: none; }
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu li a:hover, #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu li a:active, #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li .dropdown-menu li a:focus,
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu li a:hover,
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu li a:active,
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav .dropdown .dropdown-menu li a:focus {
+              background-color: #eeeeee;
+              border-top: 1px solid white; }
+      @media (max-width: 768px) {
+        #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav {
+          width: 100%;
+          margin-right: 0;
+          margin-left: 0; }
+          #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li {
+            display: inline-block; }
+            #upper-container .navbar.navbar-default.subnav-navbar .container .subnav-inner .nav.navbar-nav li a {
+              font-size: 0.91667em; } }
+  #upper-container .navbar.navbar-default.navbar-breadcrumbs {
+    background-color: #666666; }
+    #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown.open {
+      background-color: #666666; }
+      #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown.open a {
+        background-color: #666666;
+        border: 1px solid white; }
+    #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown a {
+      border: 1px solid #666666; }
+      #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown a:hover, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown a:active, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown a:focus {
+        background-color: #666666;
+        border: 1px solid white; }
+    #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu {
+      background-color: #666666; }
+      #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li {
+        border-bottom: none;
+        border: none;
+        border-top: 1px solid white; }
+        #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:first-of-type {
+          border-top: none; }
+        #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:hover, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:active, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:focus {
+          background-color: #777777; }
+          #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:hover a, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:active a, #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li:focus a {
+            background-color: #777777; }
+        #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li.dropdown .dropdown-menu li a {
+          border: none; }
+    #upper-container .navbar.navbar-default.navbar-breadcrumbs .page-title {
+      display: inline-block;
+      color: white;
+      text-transform: uppercase;
+      font-size: 2.75em;
+      font-weight: 500;
+      letter-spacing: 2px;
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 10px; }
+    @media (max-width: 768px) {
+      #upper-container .navbar.navbar-default.navbar-breadcrumbs {
+        width: 100%; }
+        #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li {
+          display: inline-block; }
+          #upper-container .navbar.navbar-default.navbar-breadcrumbs .container .nav.navbar-nav li a {
+            font-size: 0.91667em;
+            padding: 5px 8px; }
+        #upper-container .navbar.navbar-default.navbar-breadcrumbs .page-title {
+          font-size: 1.44737em; } }
+
+#body-content {
+  padding-top: 25px; }
+
 html, body {
   overflow-y: auto !important;
   overflow-x: auto !important;
