@@ -86,6 +86,7 @@ gulp.task('scripts', function() {
         'bower_components/bootcards/dist/js/bootcards.js',                      //v10 faculty
         'bower_components/smartmenus/dist/jquery.smartmenus.js',                      //v16 dropdowns
         'bower_components/smartmenus/dist/addons/bootstrap/jquery.smartmenus.bootstrap.js',                      //v16 dropdowns
+        'bower_components/lodash/dist/lodash.min.js',
         paths.vendor + '/**/**/**/*.js',
         paths.bundleResources + '/coffee/**/*.coffee'  
     	])
