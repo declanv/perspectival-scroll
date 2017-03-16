@@ -50,6 +50,8 @@ $( document ).ready(function() {
         navItems.each(function( index, element ) {
            // elDistance = element.offsetTop
 
+
+
             // var elementMiddle = element.offsetTop + element.offsetHeight / 2;
             var elementMiddle = element.offsetTop;
 
@@ -69,21 +71,23 @@ $( document ).ready(function() {
             console.log("element: ", element.innerText, " element middle: ", elementMiddle, " navHeight: ", navHeight / 2, " difference: ", difference);
             // var fontSize = 100 / difference * 10;
 
+            var childTitle = $(element).children('.dropdown-toggle');
+
             var removeAllReduceClasses = function(element) {
                 element.removeClass('reduce reduce-1 reduce-2');
             }
 
             if (difference > 55) {
-                removeAllReduceClasses($(element));
-                $(element).addClass('reduce-2')
+                removeAllReduceClasses(childTitle);
+                childTitle.addClass('reduce-2');
             } else if (difference > 45) {
-                removeAllReduceClasses($(element));
-                $(element).addClass('reduce-1')
+                removeAllReduceClasses(childTitle);
+                childTitle.addClass('reduce-1');
             } else if (difference > 35) {
-                removeAllReduceClasses($(element));
-                $(element).addClass('reduce')
+                removeAllReduceClasses(childTitle);
+                childTitle.addClass('reduce');
             } else if (difference < 20) {
-                removeAllReduceClasses($(element));
+                removeAllReduceClasses(childTitle);
             }
 
         })
@@ -93,7 +97,7 @@ $( document ).ready(function() {
 
         // middleOfNav = $(this).prop("scrollHeight") / 2;
 
-        resetNavItems($(this).children(".dropdown.top-level"), $(this).prop("scrollHeight"));
+        resetNavItems($(this).children('.dropdown.top-level'), $(this).prop('scrollHeight'));
 
 
         // console.log("Here's the academics section scrollTop: ", $(this).children().first().position().top)
