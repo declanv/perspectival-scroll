@@ -69,18 +69,21 @@ $( document ).ready(function() {
             console.log("element: ", element.innerText, " element middle: ", elementMiddle, " navHeight: ", navHeight / 2, " difference: ", difference);
             // var fontSize = 100 / difference * 10;
 
+            var removeAllReduceClasses = function(element) {
+                element.removeClass('reduce reduce-1 reduce-2');
+            }
+
             if (difference > 55) {
-                $(element).css('font-size', 6);
-                console.log("font-size: ", 6);
+                removeAllReduceClasses($(element));
+                $(element).addClass('reduce-2')
             } else if (difference > 45) {
-                $(element).css('font-size', 9);
-                console.log("font-size: ", 9);
+                removeAllReduceClasses($(element));
+                $(element).addClass('reduce-1')
             } else if (difference > 35) {
-                $(element).css('font-size', 11);
-                console.log("font-size: ", 11);
+                removeAllReduceClasses($(element));
+                $(element).addClass('reduce')
             } else if (difference < 20) {
-                $(element).css('font-size', 13);
-                console.log("font-size: ", 13);
+                removeAllReduceClasses($(element));
             }
 
         })
