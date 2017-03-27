@@ -1,8 +1,10 @@
 $( document ).ready(function() {
 
-    $('.dropdown-toggle.top-level').on('click', function(){
-        $('.dropdown.top-level.open').dropdown('toggle');
-    })
+    // An attempt to close all dropdowns other than the currently-clicked one...not working for some reason
+    // $('.dropdown.top-level').on('click', function(){
+    //
+    //     $(this).parent().find('.open').not(this).dropdown('toggle');
+    // })
 
     var resetNavItems = function(navItems, navHeight) {
 
@@ -17,6 +19,10 @@ $( document ).ready(function() {
                 element.removeClass('reduce reduce-1 reduce-2');
             }
 
+            // if (difference > 75) {
+            //     removeAllReduceClasses(childTitle);
+            //     childTitle.addClass('reduce-3');
+            // } else if (difference > 55) {
             if (difference > 55) {
                 removeAllReduceClasses(childTitle);
                 childTitle.addClass('reduce-2');
@@ -36,6 +42,7 @@ $( document ).ready(function() {
     $("#primary-nav").on('scroll', function() {
 
         resetNavItems($(this).children('.dropdown.top-level'), $(this).prop('scrollHeight'));
+        // resetNavItems($(this).children('.open').find('.dropdown'), $(this).prop('scrollHeight'));
 
     })
 

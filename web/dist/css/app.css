@@ -9850,10 +9850,10 @@ ul.slimmenu li .sub-toggle > i {
       overflow: hidden;
       overflow-y: scroll; }
       #upper-container .navbar.navbar-default .container .collapse.navbar-collapse #primary-nav.nav.navbar-nav.sm-collapsible .dropdown.top-level .dropdown-toggle {
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.25s ease-in-out;
+        -moz-transition: all 0.25s ease-in-out;
+        -o-transition: all 0.25s ease-in-out;
+        -ms-transition: all 0.25s ease-in-out;
         font-size: 13px;
         opacity: 1; }
         #upper-container .navbar.navbar-default .container .collapse.navbar-collapse #primary-nav.nav.navbar-nav.sm-collapsible .dropdown.top-level .dropdown-toggle.reduce-2 {
